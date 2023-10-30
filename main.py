@@ -38,4 +38,5 @@ def morse_converter():
             converter_on = False
 
 
-morse_converter()
+if __name__ == "__main__":
+    morse_converter()
